@@ -1,0 +1,31 @@
+# ── Environment / secrets ──
+.env
+.env.*
+!.env.example
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# ── IDE / OS ──
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Project-specific runtime output ──
+travel_plans/
+*.log
+
+# ── Streamlit ──
+.streamlit/secrets.toml
